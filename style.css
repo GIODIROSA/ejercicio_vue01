@@ -1,0 +1,68 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #12cad6;
+    font-family: 'Roboto Slab', serif;
+    color: #0fabbc;
+}
+
+.titulo{
+    font-size: 150px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.title__principal{
+
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.homework{
+    width:300px;
+    padding: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.data{
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e4f9ff;
+}
+
+.btn{
+    width: 200px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 20px 0;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 400;
+    font-size: 15px ;
+    color: #fa1616;
+    font-family: 'Roboto Slab', serif;
+    background-color: #0fabbc;
+    
+}
+
+.creditos{
+   width: 100vw;
+    background: #0fabbc;
+    color: #e4f9ff;
+    height: 350px;
+
+}
+
+.listado{
+    margin: 20px 0 0 0;
+    color: #519872;
+}

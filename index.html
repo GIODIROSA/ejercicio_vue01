@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue-desafio01</title>
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- my font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;900&display=swap" rel="stylesheet"> 
+   
+    
+</head>
+<body>
+
+
+    <div id="app" class="homework">
+        <h1 class="titulo">{{title}}</h1>
+      <input type="text" class="from-control title__principal" v-model="title" />
+
+        <input type="text" v-model="tarea" class="data" @keyup.enter= "agregarTareas">
+        <button @click="agregarTareas" class="btn">Agregar Tarea</button>
+        <ul>
+            <li v-for="tarea of tareas">{{tarea}}</li>
+        </ul>
+
+        <ul v-for= "lista of listas" class="listado">
+            <li>{{lista.nombre}}</li>
+        </ul>
+        
+    </div>
+
+
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
